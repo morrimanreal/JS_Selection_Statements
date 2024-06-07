@@ -135,6 +135,8 @@ switch(sizeId) {
   case "XL":
     size = "Extra Large";
     break;
+  default:
+    "One Size Fits All";
 }
 
 
