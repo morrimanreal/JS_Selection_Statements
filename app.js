@@ -14,8 +14,12 @@ if (guessNum < favNum) {
   console.log(guessNum + " is too low, it is, " + favNum)
 } else if(guessNum > favNum) {
   console.log(guessNum + " is too high, it is, " + favNum)
-} else  
+} else if (guessNum === favNum) {
   console.log("Congratulations, you guessed number:" +guessNum + " right!")
+} else {
+  console.log("Please input a valid number")
+}
+
 
 
 // // Exercise 2
@@ -44,6 +48,8 @@ switch(birthMonth) {
   case 11:
     console.log("Autumn");
     break;
+  default:
+    console.log("Please input a numerical birthmonth")
 }
 
 //Exercise 3
